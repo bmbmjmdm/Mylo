@@ -1,0 +1,3 @@
+rootProject.name = 'Mylo'
+
+include ':app', ':gridview-v7', ':recyclerview-v7'
