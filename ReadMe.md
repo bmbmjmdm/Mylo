@@ -8,4 +8,4 @@ Password: hildegard.org
 Use the back button on android to navigate back 
 
 
-![alt text](https://raw.githubusercontent.com/bmbmjmdm/Mylo/master/Screenshot.png)
+![Screenshot](https://raw.githubusercontent.com/bmbmjmdm/Mylo/master/Screenshot.png)
