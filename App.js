@@ -47,7 +47,7 @@ export default class App extends Component<Props> {
 	renderLogin(){
 		return (
 			
-			<ImageBackground source={bgImage} style={styles.container}>
+			<ImageBackground accessible={false} source={bgImage} style={styles.container}>
 				
 				<Image source={logoImage} style={styles.logo}/>
 				
@@ -58,6 +58,8 @@ export default class App extends Component<Props> {
 				<TouchableOpacity style={styles.loginBtn} onPress={this.handleLoginPress}>
 					<Text style={styles.loginText}>Login</Text>
 				</TouchableOpacity>
+				
+				<Text accessible={false}><Text accessible={true}>Hello</Text><Text accessible={true}>World</Text></Text>
 				
 			</ImageBackground>
 		);

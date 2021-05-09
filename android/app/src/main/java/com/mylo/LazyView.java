@@ -31,7 +31,6 @@ public class LazyView extends RecyclerView {
 		this.setLayoutManager(grid);
 		this.setAdapter(new PhotoAdapter(sources, x));
 		this.setHasFixedSize(true);
-		
 	}
 
 }

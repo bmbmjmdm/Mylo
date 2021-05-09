@@ -30,7 +30,7 @@ public class LazyManager extends SimpleViewManager<LazyView> {
 	
 	
 	//this property is set during render in the <LazyView> element, called src
-	  @ReactProp(name = "src")
+	@ReactProp(name = "src")
 	public void setSrc(LazyView view, @Nullable ReadableArray sources) {
 		view.setSource(sources);
 	}
